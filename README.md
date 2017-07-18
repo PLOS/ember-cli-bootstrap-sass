@@ -1,6 +1,16 @@
 ember-cli-bootstrap-sass
 ========================
 
+# NOTE ABOUT FORK
+
+This fork was created because the original project was no longer maintained and had the ember-cli-sass package capped at <= 3. We needed it to be >= 3 because of a node-sass dependency when upgrading past node 0.12.
+
+The bug is here:
+https://github.com/unionups/ember-cli-bootstrap-sass/issues/18
+
+I tried getting ember-cli-boostrap-sassy to work to no avail, so we created our own fork.
+
+
 ###ember-cli-bootstrap-sass requires ember-cli version '0.0.41' or later
 
 ###[bootstrap-for-ember](https://github.com/ember-addons/bootstrap-for-ember) has templates compiled by `Handlebars ~1` and do not compateble with `Ember 1.9` that require `Handlebars ~2`. ( how to exclude it from project see below ).
