@@ -10,6 +10,7 @@ https://github.com/unionups/ember-cli-bootstrap-sass/issues/18
 
 I tried getting ember-cli-boostrap-sassy to work to no avail, so we created our own fork.
 
+Used in https://github.com/PLOS/akita. If we obsolete Akita we can delete this repo.
 
 ###ember-cli-bootstrap-sass requires ember-cli version '0.0.41' or later
 
